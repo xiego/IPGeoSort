@@ -8,9 +8,9 @@ TIME=$( date +%Y%m%d-%T )
                 echo "of a single or list of IP addresses in a file separated by line."
                 echo "It then outputs the results sorted by alphabetical order (according"
                 echo "to its 2-character country-code) to a file named geo<date-time>.txt" 
-                echo "or one of your choosing specified after the IP list"
+                echo "or one of your choosing specified after the IP list."
                 echo
-                echo "Syntax is ipgeosort.sh <list filename> <output filename>"
+                echo "Syntax :: ipgeosort.sh <list filename> <output filename>"
                 echo
                 exit
         fi
